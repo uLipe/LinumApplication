@@ -1,0 +1,15 @@
+manifest:
+  remotes:
+    - name: zephyr-base
+      url-base: https://github.com/zephyrproject-rtos
+    - name: my-company-remote
+      url-base: git@github.com:uLipe
+
+  projects:
+    - name: zephyr
+      remote: zephyr-base
+      revision: main
+    - name: linum_dev_board
+      remote: my-company-remote
+      revision: main
+      path: my-company-modules/linum_dev_board

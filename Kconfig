@@ -1,0 +1,16 @@
+#
+# Zephyr configuration options
+# Source the Kconfig.zephyr in the Zephyr root directory.
+# Check out the docs: https://docs.zephyrproject.org/latest/develop/application/index.html#application-cmakelists-txt
+#
+menu "Witte-Tecnology"
+config MQTT_SERVICE_SERVER_DOMAIN_NAME
+	string "MQTT broker domain name"
+	default "localhost"
+	help
+		MQTT server (broker) domain name.
+endmenu
+
+menu "Zephyr Kernel"
+source "Kconfig.zephyr"
+endmenu

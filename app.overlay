@@ -1,0 +1,7 @@
+/ {
+	lvgl_pointer {
+		compatible = "zephyr,lvgl-pointer-input";
+		input = <&ft5446>;
+		swap-xy;
+	};
+};
