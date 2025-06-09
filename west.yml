@@ -9,7 +9,7 @@ manifest:
     - name: zephyr
       remote: zephyr-base
       revision: main
-    - name: linum_dev_board
+    - name: LinumDevBoardModule
       remote: my-company-remote
       revision: main
-      path: my-company-modules/linum_dev_board
+      path: my-company-modules/LinumDevBoardModule
